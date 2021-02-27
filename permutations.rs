@@ -36,7 +36,7 @@
         a[j] = a[i];
         a[i] = c;
 
-		    i = i - 1;
+	i = i - 1;
 
 
 	/*Tail change*/
