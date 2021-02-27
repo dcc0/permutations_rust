@@ -1,33 +1,33 @@
-/*Перестановки на языке Rust. Permutations in Rust*/
+
+
  fn main ()
 
  {
     let mut a = vec![4,3,2,1];
+    	let b = vec![1,2,3,4];
+    let mut  i;
+    let mut j;
+    let mut c;
 
-    let mut  i = 1;
-    let mut j = 0;
-    let mut c = 0;
-    let mut f = 24; /*Факториал числа*/
 
 
     loop  {
-	/*Печатаем массив*/
-       println! ("{:#?}", a) ;
-	f = f - 1;
-	if (f == 0) { break; }
+       println! ("{:?}", a) ;
+
+	   if a == b { break; }
 
        i = 1;
 
 	/*Searching next element, which is greater*/
       loop {
-        if (a[i] < a[i-1] ) {break;}
+        if  a[i] < a[i-1]  {break};
         i = i + 1;
       }
 
         j = 0;
 
         loop {
-        if (a[j] > a[i] ) {break;}
+        if  a[j] > a[i]  {break};
         j = j + 1;
      }
 
@@ -46,9 +46,7 @@
         c = a[i];
         a[i] = a[j];
         a[j] = c;
-		   
-        i = i - 1;
-
+	i = i - 1;
 
        }
     }
