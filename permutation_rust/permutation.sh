@@ -11,7 +11,7 @@ exit;
 fi;
 
 if  [ -f ./permutation.rs ]
- then
+then
 rm ./permutation.rs;
 fi;
 
