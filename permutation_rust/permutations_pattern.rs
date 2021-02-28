@@ -24,7 +24,7 @@ fn main ()
 
         j = 0;
 
-        loop {
+      loop {
         if  a[j] > a[i]  {break};
         j = j + 1;
      }
@@ -39,7 +39,7 @@ fn main ()
 
 
 	/*Tail change*/
-        for j in 0..i {
+       for j in 0..i {
 
         c = a[i];
         a[i] = a[j];
