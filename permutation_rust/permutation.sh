@@ -1,5 +1,11 @@
 #!/bin/bash
 
+if [ !  $1  ] || [ !  $2  ];
+then
+echo 'Запустите скрипт с двумя аргументами так: permutation.rs 3,2,1 1,2,3';
+exit;
+fi;
+
 if  [ -f ./permutation.rs ]
  then
 rm ./permutation.rs;
