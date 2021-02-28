@@ -6,7 +6,7 @@
 echo "Проверим аргумент";
 if [ !  $1  ];
   then
-echo 'Запустите скрипт с аргументом так: permutation.rs 3';
+echo 'Запустите скрипт с аргументом так: /bin/bash permutation.sh 3';
 exit;
   fi;
 
