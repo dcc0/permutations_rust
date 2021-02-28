@@ -1,30 +1,31 @@
  fn main ()
 
  {
-    let mut a = vec![5,4,3,2,1,0,];
-    let b = vec![0,1,2,3,4,5,];
+	 
+    let mut a = vec![1,0];
+    let b = vec![0,1];
     let mut  i;
     let mut j;
     let mut c;
 
 
-
     loop  {
+	    
        println! ("{:?}", a) ;
 
-	   if a == b { break; }
+	if a == b { break; }
 
-       i = 1;
+       	i = 1;
 
 	/*Searching next element, which is greater*/
-      loop {
+     loop {
         if  a[i] < a[i-1]  {break};
         i = i + 1;
       }
 
         j = 0;
 
-        loop {
+     loop {
         if  a[j] > a[i]  {break};
         j = j + 1;
      }
@@ -44,6 +45,7 @@
         c = a[i];
         a[i] = a[j];
         a[j] = c;
+	
 	i = i - 1;
 
        }
