@@ -1,7 +1,8 @@
  fn main ()
 
  {
-	 
+
+/*а - вектор, b -  перевернутый вектор для остановки алгоритма*/ 
     let mut a = vec![1,0];
     let b = vec![0,1];
     let mut  i;
@@ -10,14 +11,14 @@
 
 
     loop  {
-	    
+/*Печать*/	    
        println! ("{:?}", a) ;
 
 	if a == b { break; }
 
        	i = 1;
 
-	/*Searching next element, which is greater*/
+/*Ищем следующий элемент для перестановки*/
      loop {
         if  a[i] < a[i-1]  {break};
         i = i + 1;
@@ -31,7 +32,7 @@
      }
 
 
-	/*Change*/
+	/*Обмен*/
         c = a[j];
         a[j] = a[i];
         a[i] = c;
@@ -39,7 +40,7 @@
 	i = i - 1;
 
 
-	/*Tail change*/
+	/*Оборот хвостовой части*/
         for j in 0..i {
 
         c = a[i];
