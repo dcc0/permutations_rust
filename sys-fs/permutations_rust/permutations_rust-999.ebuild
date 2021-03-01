@@ -19,7 +19,7 @@ src_unpack() {
 einfo  "COPY /var/tmp/portage/sys-fs/permutations_rust-99999999/work/ to your home directiry to use";
 einfo "TO RUN PROGRAM: RUN permutation.sh with an argument like: permutation.sh 3"
 	
-    unpack ${PN}-${PV}.tar.gz
+    unpack ${PV}.tar.gz
 
 }
 
