@@ -3,7 +3,7 @@ EAPI=7
  
 DESCRIPTION="Permutations in Rust. Command line tool to generate permutations"
 HOMEPAGE="https://github.com/dcc0/permutations_rust"
-SRC_URI="https://github.com/dcc0/permutations_rust/archive/permutations_rust-999.tar.gz"
+SRC_URI="https://github.com/dcc0/permutations_rust/archive/999.tar.gz"
  
 LICENSE="GPL-2"
 SLOT="0"
