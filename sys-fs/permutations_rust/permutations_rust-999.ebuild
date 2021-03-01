@@ -16,7 +16,7 @@ BDEPEND=""
 
 
 src_unpack() {
-einfo  "COPY /var/tmp/portage/sys-fs/permutations_rust-99999999/work/ to your home directiry to use";
+einfo  "COPY /var/tmp/portage/sys-fs/permutations_rust-999/work/ to your home directiry";
 einfo "TO RUN PROGRAM: RUN permutation.sh with an argument like: permutation.sh 3"
 	
     unpack ${PV}.tar.gz
@@ -25,7 +25,7 @@ einfo "TO RUN PROGRAM: RUN permutation.sh with an argument like: permutation.sh 
 
 src_install() {
 
-elog  "COPY /var/tmp/portage/sys-fs/permutations_rust-99999999/work/ to your home directiry to use";
+elog  "COPY /var/tmp/portage/sys-fs/permutations_rust-999/work/ to your home directiry";
 elog "TO RUN PROGRAM: RUN permutation.sh with an argument like: permutation.sh 3"
 	
 }	
