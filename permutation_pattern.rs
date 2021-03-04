@@ -1,4 +1,7 @@
-/*Данный алгоритм формирует все перестановки числа. Язык: Rust. Дата создания: 2021 год*/
+/*Данный алгоритм формирует все перестановки числа. Язык: Rust. Дата создания: 2021 год
+This algo generates all permutations in Rust (It is closer to Narayana algo)*/
+/*Written: MSK. 2021. Iv.Gavryushin. e-mail: ivangavr777@mail.com*/
+
 fn main ()
 
  {
